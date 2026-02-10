@@ -87,6 +87,48 @@ body{
     margin-bottom: 30px;
 }
 
+.icon_email{
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    background-color: var(--text-input-field);
+    display: grid;
+    place-items: center;
+    justify-self: center;
+    margin-bottom: 20px;
+}
+
+.icon{
+    width: 70px;
+    display: grid;
+    place-items: center;
+}
+
+.aux{
+    display: grid;
+    justify-content: center;
+}
+
+.hyper{
+    color: var(--red);
+    text-decoration: none;
+}
+
+.secondary-button{
+    background-color: var(--white);
+    border-radius: 8px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: var(--red);
+    color: var(--red);
+    width: 100%;
+    cursor: pointer;
+    font-size: var(--md);
+    font-weight: bold;
+    height: 50px;
+    margin-top: 50px;
+}
+
 @media (max-width: 640px){
     .logo{
         display: block;
