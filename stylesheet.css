@@ -133,6 +133,9 @@ body{
 /*Stryle main.html*/
 
 .cards-container{
+    margin-top: 2vh;
+    margin-right: 2vw;
+    margin-left: 2vw;
     display:grid;
     grid-template-columns: repeat(auto-fill, var(--card-size));
     gap: 26px;
