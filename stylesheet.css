@@ -130,10 +130,11 @@ body{
     height: 50px;
 }
 
-/*Stryle main.html*/
+/*style main.html*/
 
 .cards-container{
     margin-top: 2vh;
+    margin-bottom: 2vh;
     margin-right: 2vw;
     margin-left: 2vw;
     display:grid;
@@ -180,6 +181,70 @@ body{
     font-size: var(--sm);
     margin-top: 0;
     margin-bottom: 0;
+    color: var(--very-light-pink);
+}
+
+/*style menu-desktop.html*/
+
+.menu{
+    list-style: none;
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid var(--very-light-pink);
+    border-radius: 6px;
+    width: 115px;
+    text-align: right;
+}
+
+.menu li:nth-child(2) {
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--very-light-pink);
+}
+
+.menu a{
+    text-decoration: none;
+    display: block;
+    padding-top: 20px;
+    font-weight: bold;
+    color: var(--black);
+}
+
+.menu li:last-child a{
+    font-weight: normal;
+    font-size: var(--sm);
+    color: var(--black);
+}
+
+/*style menu-mobile.html*/
+
+.menu-mobile { 
+    display: block;
+    text-align: left;
+    font-weight: bold;
+    margin-right: 2vw;
+    margin-left: -4vw;
+}
+
+.menu-mobile li{
+    list-style: none;
+    padding-bottom: 20px;
+}
+
+.menu-mobile a{
+    color: var(--black);
+    text-decoration: none;
+    padding-top: 20px;
+    text-align: left;
+    font-size: (--md);
+}
+
+.categories li:nth-child(6){
+    padding-bottom: 20px;
+    border-bottom: 1px solid var(--very-light-pink);
+}
+
+.user li:nth-child(3) a{
+    font-weight: normal;
     color: var(--very-light-pink);
 }
 
